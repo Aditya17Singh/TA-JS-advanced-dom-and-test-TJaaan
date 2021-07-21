@@ -8,22 +8,18 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <form class="container">
-        <label for=""> Add Notice</label>
-        <input type="text" id="text" required placeholder="Enter notice title">
-        <input type="text" id="text" placeholder="Select A notice category">
-        <button type="submit">
-            Add new Album
-        </button>
-    </form>
-    <ul class="category container">
-        <li>
-            sport
-        </li>
-        <p>
-            sport2
-        </p>
+    <ul class="category container">  
     </ul>
+    <div class="add_card">
+        <form class="container">
+            <label for=""> Add Notice</label>
+            <input name="title" type="text" id="text" required placeholder="Enter notice title">
+            <input name="category" type="text" id="text" placeholder="Select A notice category">
+            <button type="submit">
+                Add new Album
+            </button>
+        </form>
+    </div>
     <script src="./index.js"></script>
 </body>
 </html>
